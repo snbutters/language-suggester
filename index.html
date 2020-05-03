@@ -11,9 +11,121 @@
     <div class="container">
       <h1>Programming Language Suggester</h1>
 
-      <h4>Complete this survey to determine which programming language(s) best fit your needs.</h4>
+      <h4>Complete this survey to determine which programming language best fits your needs.</h4>
 
       <form id="languages">
         <ol>
-          <li></li>
+          <li>Do you have any prior programming experience?</li>
+          <div class="radio">
+            <label>
+              <input type="radio" name="experience" value="no" checked>
+              No, none at all
+            </label>
+          </div>
+          <div class="radio">
+            <label>
+              <input type="radio" name="experience" value="barely">
+              Barely
+            </label>
+          </div>
+          <div class="radio">
+            <label>
+              <input type="radio" name="experience" value="yes">
+              Yes
+            </label>
+          </div>
+
+          <li>Why do you want to learn to program?</li>
+          <div class="radio">
+            <label>
+              <input type="radio" name="why" value="work" checked>
+              For work
+            </label>
+          </div>
+          <div class="radio">
+            <label>
+              <input type="radio" name="why" value="play">
+              For play
+            </label>
+          </div>
+
+          <li>Which of the following language qualities is most important to you?</li>
+          <div class="radio">
+            <label>
+              <input type="radio" name="quality" value="ease" checked>
+              Ease of learning
+            </label>
+          </div>
+          <div class="radio">
+            <label>
+              <input type="radio" name="quality" value="power">
+              Power
+            </label>
+          </div>
+          <div class="radio">
+            <label>
+              <input type="radio" name="quality" value="longevity">
+              Longevity
+            </label>
+          </div>
+
+          <li>Select the use that interests you most:</li>
+          <div class="radio">
+            <label>
+              <input type="radio" name="use" value="software" checked>
+              Software development
+            </label>
+          </div>
+          <div class="radio">
+            <label>
+              <input type="radio" name="use" value="web">
+              Web development
+            </label>
+          </div>
+          <div class="radio">
+            <label>
+              <input type="radio" name="use" value="video-game">
+              Video game development
+            </label>
+          </div>
+          <div class="radio">
+            <label>
+              <input type="radio" name="use" value="mobile-app">
+              Mobile app development
+            </label>
+          </div>
+
+          <li>Are you looking to be an Apple coder or write programs for iOS?</li>
+          <div class="radio">
+            <label>
+              <input type="radio" name="apple" value="yes" checked>
+              Yes
+            </label>
+          </div>
+          <div class="radio">
+            <label>
+              <input type="radio" name="apple" value="no">
+              No
+            </label>
+          </div>
         </ol>
+        
+        <button type="submit" class="btn">Submit</button>
+      </form>
+  
+      <div id="result1">
+        <h4>Python</h4>
+      </div>
+      <div id="result2">
+        <h4>Java</h4>
+      </div>
+      <div id="result3">
+        <h4>C++</h4>
+      </div>
+      <div id="result4">
+        <h4>Swift</h4>
+      </div>
+
+    </div>
+  </body>
+</html>
