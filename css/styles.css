@@ -10,27 +10,27 @@ h4 {
 }
 li {
   padding-top: 8px;
-  font-size: 15px;
+  font-size: 17px;
 }
 
 .radio {
-  font-size: 15px;
+  font-size: 17px;
 }
 
 .btn {
   margin-top: 8px;
   margin-left: 23px;
-  font-size: 15px;
+  font-size: 17px;
   background-color: rgb(197, 204, 211);
 }
 
 p {
-padding-left: 23px;
-padding-top: 23px;
-font-size: 25px;
-font-weight: bold;
+  padding-left: 23px;
+  padding-top: 30px;
+  font-size: 30px;
+  font-weight: bold;
 }
 
-#python, #java, #cPlusPlus, #swift  {
+#python, #java, #cPlusPlus, #swift {
   display: none;
 }
