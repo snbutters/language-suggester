@@ -31,6 +31,6 @@ font-size: 25px;
 font-weight: bold;
 }
 
-#result1, #result2, #result3, #result4  {
+#python, #java, #cPlusPlus, #swift  {
   display: none;
 }
