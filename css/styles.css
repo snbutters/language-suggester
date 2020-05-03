@@ -19,9 +19,16 @@ li {
 
 .btn {
   margin-top: 8px;
-  margin-left: 24px;
+  margin-left: 23px;
   font-size: 15px;
   background-color: rgb(197, 204, 211);
+}
+
+p {
+padding-left: 23px;
+padding-top: 23px;
+font-size: 25px;
+font-weight: bold;
 }
 
 #result1, #result2, #result3, #result4  {
