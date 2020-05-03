@@ -1,8 +1,7 @@
 $(document).ready(function() {
   $("form#languages").submit(function(event) {
 
-    var experience = $("input:radio[name=experience]:checked").val();
-    var why = $("input:radio[name=why]:checked").val();
+    var reason = $("input:radio[name=reason]:checked").val();
     var quality = $("input:radio[name=quality]:checked").val();
     var use = $("input:radio[name=use]:checked").val();
     var apple = $("input:radio[name=apple]:checked").val();
@@ -31,6 +30,16 @@ $(document).ready(function() {
     } else if (use === "mobile-app") {
       $('#python, #java, #cPlusPlus, #swift').hide();
       $('#java').show();
+    }
+
+    if (reason ==="play" && quality === "ease") {
+      $('#python, #java, #cPlusPlus, #swift').hide();
+      $('#python').show();
+    }
+
+    if (apple === "yes") {
+      $('#python, #java, #cPlusPlus, #swift').hide();
+      $('#swift').show();
     }
 
     event.preventDefault();
