@@ -1,10 +1,14 @@
 $(document).ready(function() {
   $("form#languages").submit(function(event) {
 
+    var insertName = $("input#insertName").val();
+
     var reason = $("input:radio[name=reason]:checked").val();
     var quality = $("input:radio[name=quality]:checked").val();
     var use = $("input:radio[name=use]:checked").val();
     var apple = $("input:radio[name=apple]:checked").val();
+
+    $(".insertName").text(insertName);
 
     if (use === "software" && quality ==="ease") {
       $('#python, #java, #cPlusPlus, #swift').hide();

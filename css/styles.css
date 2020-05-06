@@ -5,11 +5,16 @@ h1 {
 }
 
 h4 {
-  padding-bottom: 12px;
-
+  padding-bottom: 15px;
 }
+
+.col-md-1 {
+  font-size: 17px;
+  padding-bottom: 20px;
+}
+
 li {
-  padding-top: 8px;
+  padding-top: 12px;
   font-size: 17px;
 }
 
